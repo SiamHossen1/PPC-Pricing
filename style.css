@@ -16,7 +16,7 @@ section {
   column-gap: 20px;
   align-items: center;
 }
-@media screen {
+@media screen and (max-width: 767px) {
   .calculation {
     flex-direction: column;
     column-gap: 0px;
@@ -27,7 +27,7 @@ section {
   column-gap: 20px;
   align-items: center;
 }
-@media screen {
+@media screen and (max-width: 767px) {
   .calculation div {
     flex-direction: column;
     column-gap: 0px;
@@ -80,7 +80,7 @@ button:hover {
   color: #15365f;
 }
 
-@media screen {
+@media screen and (max-width: 767px) {
   .results {
     flex-direction: column;
     column-gap: 0px;

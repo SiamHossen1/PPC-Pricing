@@ -16,10 +16,23 @@ section {
   column-gap: 20px;
   align-items: center;
 }
+@media screen {
+  .calculation {
+    flex-direction: column;
+    column-gap: 0px;
+  }
+}
 .calculation div {
   display: flex;
   column-gap: 20px;
   align-items: center;
+}
+@media screen {
+  .calculation div {
+    flex-direction: column;
+    column-gap: 0px;
+    row-gap: 20px;
+  }
 }
 
 h2 {
@@ -65,6 +78,14 @@ button:hover {
   flex-direction: row;
   column-gap: 60px;
   color: #15365f;
+}
+
+@media screen {
+  .results {
+    flex-direction: column;
+    column-gap: 0px;
+    row-gap: 30px;
+  }
 }
 .results div {
   display: flex;

@@ -1,0 +1,88 @@
+section {
+  /* width: 700px; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculation {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+.calculation div {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+h2 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+input {
+  padding: 8px;
+  margin: 8px 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -moz-appearance: textfield; /* Firefox */
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  padding: 15px 30px;
+  background-color: #ffa500;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 600;
+}
+button:hover {
+  background-color: #0e0f24;
+}
+
+#resultContainer {
+  display: none;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  color: #15365f;
+}
+.results div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.results div h4 {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.results div p {
+  border-bottom: 1px solid #000000;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+}
